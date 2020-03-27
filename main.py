@@ -2,7 +2,7 @@
 import os
 from flask import Flask, request, render_template
 import requests
-#made some changes 
+#made 
 news_template = 'http://newsapi.org/v2/top-headlines?country=%s&category=general'
 weather_template = 'http://api.openweathermap.org/data/2.5/weather?q=%s&appid=%s'
 
